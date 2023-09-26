@@ -1,0 +1,48 @@
+.basket i{
+    margin-top: 16px;
+    margin-left: 14px;
+    font-size: 30px;
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.count{
+    position: relative;
+    width: 22px;
+    height: 22px;
+    background-color: magenta;
+    border-radius: 50%;
+    top: 5px;
+    right: 1px;
+}
+.basket span{
+    position: absolute;
+    top: -1px;
+    right: 6px;
+    color: white;
+}
+
+#cart .table tbody tr img{
+    width: 150px;
+    height: 150px;
+}
+
+.fa-minus{
+    cursor: pointer;
+    margin-left: 5px;
+    border: solid 1px;
+    border-radius: 20px;
+    width: 18px;
+    height: 19px;
+    padding: 1px;
+}
+
+.fa-plus{
+    cursor: pointer;
+    margin-left: 5px;
+    border: solid 1px;
+    border-radius: 20px;
+    width: 18px;
+    height: 19px;
+    padding: 1px;
+}
